@@ -1,0 +1,293 @@
+name: bujafasta_app
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  file_picker: ^10.3.3
+  flutter_image_compress: ^2.3.0
+  supabase_flutter: ^2.10.3
+  app_links: ^6.4.1
+  url_launcher: ^6.3.0
+  intl: ^0.19.0 
+  lottie: ^3.1.0
+  connectivity_plus: ^6.0.3
+  record: ^6.1.2
+  audioplayers: ^5.2.1
+  path_provider: ^2.1.2
+  crypto: ^3.0.3 
+  image_picker: ^1.0.7
+  device_info_plus: ^10.1.0
+  flutter_local_notifications: ^17.0.0
+  permission_handler: ^11.3.2
+  badges: ^3.1.2
+  shared_preferences: ^2.2.2
+  reorderables: ^0.4.2
+  flutter_staggered_grid_view: ^0.7.0
+  cached_network_image: ^3.3.1
+  shimmer: ^3.0.0
+  fluttertoast: ^8.2.1
+
+
+  
+
+
+
+
+ 
+
+
+
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  share_plus: ^12.0.1
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^6.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+  
+    - assets/bujafastalogo.png
+    - assets/dresses.jpg
+    - assets/suits_for_women.jpg
+    - assets/tops_for_women.jpg
+    - assets/bottoms_for_women.jpg
+    - assets/complete_sets_for_women.jpg
+    - assets/jumpsuits.jpg
+    - assets/shoes_for_women.jpg  
+    - assets/handbags.jpg
+    - assets/jewelry_for_women.jpg
+    - assets/watches_for_women.jpg
+    - assets/accessories_for_women.jpg
+    - assets/underwear_for_women.jpg
+    - assets/head_and_hair_accessories_for_women.jpg
+    - assets/body_care.jpg
+    - assets/hair_care.jpg
+    - assets/nail_care.jpg
+    - assets/perfumes.jpg
+    - assets/makeup.jpg
+    - assets/face_care.jpg
+    - assets/hand_care.jpg
+    - assets/alcatel.jpg
+    - assets/apple_(iphone).jpg
+    - assets/asus_(rog_zenfone).jpg
+    - assets/blackberry.jpg
+    - assets/google_(pixel).jpg
+    - assets/hisense.jpg
+    - assets/honor.jpg
+    - assets/htc.jpg
+    - assets/huawei.jpg
+    - assets/infinix.jpg
+    - assets/itel.jpg
+    - assets/lava.jpg
+    - assets/lg.jpg
+    - assets/oneplus.jpg
+    - assets/nothing.jpg
+    - assets/nokia.jpg
+    - assets/motorola.jpg
+    - assets/oppo.jpg
+    - assets/samsung.jpg
+    - assets/sony_(xperia).jpg
+    - assets/tecno.jpg
+    - assets/sharp.jpg
+    - assets/realme.jpg
+    - assets/vivo.jpg
+    - assets/xiaomi.jpg
+    - assets/wiko.jpg
+    - assets/zte.jpg
+    - assets/bluetooth_speaker.jpg
+    - assets/clothing.jpg
+    - assets/footwear.jpg
+    - assets/equipment.jpg
+    - assets/buja_fasta_logo_title.png
+    - assets/google_logo.png
+    - assets/us_flag.png
+    - assets/typing.json
+    - assets/recording.json
+    - assets/recording_mode.json
+    - assets/start_record.aac
+    - assets/end_record.aac
+    - assets/cancel_record.aac
+    - assets/verified_tick.png
+    - assets/chat_bubble.png
+    - assets/empty.png
+    - assets/nia_ai.png
+    - assets/fashion.webp
+    - assets/beauty_&_health.webp
+    - assets/bags_&_travel_bags.webp
+    - assets/phones.webp
+    - assets/phone_accessories.webp
+    - assets/headphones.webp
+    - assets/sportswear_&_equipment.webp
+    - assets/computers_&_tablets.webp
+    - assets/women.jpg
+    - assets/men.jpg
+    - assets/vest_for_women.jpg
+    - assets/t_shirt_for_women.jpg
+    - assets/shirt_for_women.jpg
+    - assets/hoodies_for_women.jpg
+    - assets/crop_tops.jpg
+    - assets/jeans_for_women.jpg
+    - assets/shorts_for_women.jpg
+    - assets/skirts_for_women.jpg
+    - assets/leggings_for_women.jpg
+    - assets/trousers_for_women.jpg
+    - assets/casual_dresses.jpg
+    - assets/evening_dresses.jpg
+    - assets/clutches_for_women.jpg
+    - assets/backpacks_for_women.jpg
+    - assets/handbags_for_women.jpg
+    - assets/sandals_for_women.jpg
+    - assets/heels_for_women.jpg
+    - assets/flip_flops_for_women.jpg
+    - assets/sneakers_for_women.jpg
+    - assets/anklet_for_women.jpg
+    - assets/bracelet_for_women.jpg
+    - assets/brooch_pin_for_women.jpg
+    - assets/earrings_for_women.jpg
+    - assets/necklace_for_women.jpg
+    - assets/nose_jewery_for_women.jpg
+    - assets/rings_for_women.jpg
+    - assets/toe_ring_for_women.jpg
+    - assets/waist_chain_for_women.jpg
+    - assets/sunglasses_for_women.jpg
+    - assets/belts_for_women.jpg
+    - assets/gloves_for_women.jpg
+    - assets/scarves_for_women.jpg
+    - assets/skirt_suit_for_women.jpg
+    - assets/trouser_suit_for_women.jpg
+    - assets/bras_for_women.jpg
+    - assets/panties_for_women.jpg
+    - assets/lingerie_set_for_women.jpg
+    - assets/caps_for_women.jpg
+    - assets/hair_accessories_for_women.jpg
+    - assets/analog_watch_for_women.jpg
+    - assets/digital_watch_for_women.jpg
+    - assets/smart_watch_for_women.jpg
+    - assets/underwear_for_men.jpg
+    - assets/bottoms_for_men.jpg
+    - assets/complete_sets_for_men.jpg
+    - assets/tops_for_men.jpg
+    - assets/shoes_for_men.jpg
+    - assets/jewelry_for_men.jpg
+    - assets/suits_for_men.jpg
+    - assets/accessories_for_men.jpg
+    - assets/watches_for_men.jpg
+    - assets/shirt_for_men.jpg
+    - assets/t_shirt_for_men.jpg
+    - assets/vest_for_men.jpg
+    - assets/singlets_for_men.jpg
+    - assets/hoodies_for_men.jpg
+    - assets/shorts_for_men.jpg
+    - assets/trousers_for_men.jpg
+    - assets/jeans_for_men.jpg
+    - assets/sandals_for_men.jpg
+    - assets/sneakers_for_men.jpg
+    - assets/formal_shoes_for_men.jpg
+    - assets/flip_flops_for_men.jpg
+    - assets/belts_for_men.jpg
+    - assets/sunglasses_for_men.jpg
+    - assets/scarves_for_men.jpg
+    - assets/caps_for_men.jpg
+    - assets/rings_for_men.jpg
+    - assets/bracelet_for_men.jpg
+    - assets/necklace_for_men.jpg
+    - assets/boxers_for_men.jpg
+    - assets/singlet_for_men.jpg
+    - assets/socks_for_men.jpg
+    - assets/power_banks.jpg
+    - assets/phone_cases.jpg
+    - assets/chargers.jpg
+    - assets/bluetooth_earbuds.jpg
+    - assets/headphones.jpg
+    - assets/desktop.jpg
+    - assets/laptop.jpg
+    - assets/tablet.jpg
+    - assets/bag.jpg
+    - assets/travel_bag.jpg
+  
+    
+  
+
+    
+
+
+
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
+
